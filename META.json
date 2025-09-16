@@ -1,0 +1,72 @@
+{
+  "category": "web-servers",
+  "created_date": "2025-09-15T22:48:58.392696",
+  "default_ports": [
+    2,
+    10,
+    50,
+    80,
+    443,
+    3000,
+    3001,
+    8080,
+    9113
+  ],
+  "dependencies": [
+    "openssl",
+    "pcre",
+    "zlib",
+    "nginx-module-stream"
+  ],
+  "description": "NGINX is a free and open-source web server, reverse proxy, load balancer, and HTTP cache. Originally written by Igor Sysoev to solve the C10K problem, it's now one of the most popular web servers in the world. NGINX serves as a FOSS alternative to commercial solutions like F5 BIG-IP, Citrix ADC, or proprietary CDNs, offering enterprise-grade performance and reliability without licensing costs.",
+  "difficulty_level": "intermediate",
+  "documentation_url": "https://howtomgr.github.io/web-servers/nginx",
+  "estimated_setup_time": "15-30 minutes",
+  "features": [
+    "multi-os-support",
+    "comprehensive-documentation",
+    "security-hardening",
+    "performance-optimization",
+    "backup-restore-procedures",
+    "troubleshooting-guides"
+  ],
+  "guide_path": "/web-servers/nginx",
+  "installation_methods": [
+    "native-packages",
+    "source-compilation"
+  ],
+  "last_updated": "2025-09-15T22:48:58.392717",
+  "license": "Open Source",
+  "maintenance_status": "active",
+  "name": "nginx",
+  "repository_url": "https://github.com/howtomgr/nginx",
+  "spec_version": "2.0",
+  "subcategory": "web-servers",
+  "supported_os": [
+    "rhel",
+    "centos",
+    "rocky",
+    "almalinux",
+    "debian",
+    "ubuntu",
+    "arch",
+    "alpine",
+    "opensuse",
+    "sles",
+    "macos",
+    "freebsd",
+    "windows"
+  ],
+  "tags": [
+    "web-servers",
+    "observability",
+    "data-storage",
+    "web-services",
+    "networking",
+    "security",
+    "data-protection"
+  ],
+  "title": "NGINX Installation Guide",
+  "version": "1.0.0",
+  "website_url": "https://howtomgr.github.io/web-servers/nginx"
+}
